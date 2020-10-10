@@ -1,0 +1,5 @@
+build
+.kdev4
+*.jsc
+*.qmlc
+.vscode

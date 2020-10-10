@@ -1,0 +1,28 @@
+[Desktop Entry]
+Name=Display Screen Profile Switcher
+Name[en_GB]=Display Screen Profile Switcher
+Name[pl]=Przełącznik ustawień ekranów
+Comment=Allows to easily switch between display configurations.
+Comment[en_GB]=Allows to easily switch between display configurations.
+Comment[pl]=Pozwala na proste przełączanie między konfiguracjami ekranów.
+Profiles[pl]=Profile
+
+Icon=video-display
+Type=Service
+ServiceTypes=Plasma/Applet
+
+X-KDE-PluginInfo-Author=Maciej Gierej
+X-KDE-PluginInfo-Email=makg@makg.eu
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=http://maciej.gierej.pl
+X-KDE-PluginInfo-Category=Utilities
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=MIT
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-Name=eu.makg.plasma.display-profile-switcher
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-Requires-FileDialog=Unused
+X-Plasma-Requires-LaunchApp=Unused
+X-Plasma-DefaultSize=250,200
